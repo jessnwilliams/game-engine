@@ -13,6 +13,26 @@ class MyGame : public AbstractGame {
 		
 		Rect box;
 		Rect btn;
+		Rect box1;
+		Rect box2;
+		Rect box3;
+		Rect bxtxt;
+		Rect sldrbx;
+		Rect sldrbx1;
+		Rect sldrbx2;
+		Rect sldrbx3;
+		Rect sldrbx4;
+		Rect sldrbx5;
+
+		SDL_Texture* image;
+		SDL_Texture* image2;
+		SDL_Texture* imgGhostR;
+		SDL_Texture* imgGhostB;
+		SDL_Texture* imgPacman;
+		SDL_Texture* imgGhostO;
+		SDL_Texture* imgGhostP;
+
+		
 
 		Vector2i velocity;
 
@@ -20,6 +40,7 @@ class MyGame : public AbstractGame {
 
 		/* GAMEPLAY */
 		int score, numKeys, lives;
+		int counter;
 		bool gameWon;
 
 		void handleKeyEvents();
