@@ -23,6 +23,7 @@ class MyGame : public AbstractGame {
 		Rect sldrbx3;
 		Rect sldrbx4;
 		Rect sldrbx5;
+		Rect charCard;
 
 		SDL_Texture* image;
 		SDL_Texture* image2;
@@ -31,6 +32,13 @@ class MyGame : public AbstractGame {
 		SDL_Texture* imgPacman;
 		SDL_Texture* imgGhostO;
 		SDL_Texture* imgGhostP;
+		SDL_Texture* imgToDisplay;
+		SDL_Texture* blinkyCC;
+		SDL_Texture* inkyCC;
+		SDL_Texture* pacMCC;
+		SDL_Texture* pinkyCC;
+		SDL_Texture* clydeCC;
+		SDL_Texture* imgTXT;
 
 		
 
